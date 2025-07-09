@@ -1,0 +1,11 @@
+{
+  "baseUrl":"https://fakestoreapi.com",
+  "endPoints":
+  {
+     "users":{
+      "getUsers":"/users",
+      "auth":"/auth/login"
+     }
+  }
+
+}

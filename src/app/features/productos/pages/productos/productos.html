@@ -1,1 +1,2 @@
-<app-table-list [productos]="productos()"/>
+<app-loading *ngIf="pageLoad()"></app-loading>
+<app-table-list [productos]="productos()" (productoEdit)="detailProduct($event)"/>

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TableList } from './table-list';
+import { FormReg } from './form-reg';
 
-describe('TableList', () => {
-  let component: TableList;
-  let fixture: ComponentFixture<TableList>;
+describe('FormReg', () => {
+  let component: FormReg;
+  let fixture: ComponentFixture<FormReg>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TableList]
+      imports: [FormReg]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TableList);
+    fixture = TestBed.createComponent(FormReg);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -7,6 +7,6 @@ import { Component, Input } from '@angular/core';
   styleUrl: './button-primary.scss'
 })
 export class ButtonPrimary {
-   @Input() label: string = 'Click Me';
+   @Input() label: string = "";
    @Input() action: () => void = () => {};
 }

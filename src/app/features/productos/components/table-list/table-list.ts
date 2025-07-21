@@ -1,4 +1,4 @@
-import { Component, signal ,Input, SimpleChanges} from '@angular/core';
+import { Component, signal ,Input, SimpleChanges, Output, EventEmitter} from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -10,6 +10,7 @@ import { CommonModule } from '@angular/common';
 
 export class TableList {
  @Input() productos: any[] = [];
+ @Output() productoEdit=new EventEmitter<any>();
 
   productosSignal = signal<any[]>([]);
 
@@ -21,6 +22,7 @@ export class TableList {
 
   editProduct(producto: any) {
     console.log(producto);
+    this.productoEdit.emit(producto);
   }
 
 }

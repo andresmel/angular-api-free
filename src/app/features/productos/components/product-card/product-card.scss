@@ -1,0 +1,15 @@
+.details-container{
+  position: absolute;
+  top:60px;
+  left:0%;
+  width: 100%;
+  height: calc(100% - 60px);
+  display: flex;
+  justify-content: center;
+}
+
+.details-container .img-w-h-details{
+  width: 400px !important;
+  height: 380px !important;
+  caret-color: transparent  !important ;
+}

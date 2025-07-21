@@ -7,7 +7,9 @@
       "auth":"/auth/login"
      },
      "productos":{
-      "getProductos":"/products"
+      "getProductos":"/products",
+      "getProductoDetail":"/products/"
+
      }
   }
 

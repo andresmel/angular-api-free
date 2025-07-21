@@ -1,0 +1,15 @@
+
+<div class="details-container">
+
+  <div class="absolute w-100 bg-white shadow-xl/30 rounded-lg h-auto m-15 dark:bg-gray-800 dark:border-gray-700 ">
+    <img contenteditable="false" class="rounded-t-lg img-w-h-details" src={{productoSignal().image}} alt="" />
+    <div class="p-5">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{productoSignal().title}}</h5>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400"> Category : {{productoSignal().category}}</p>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Description : {{productoSignal().description}}</p>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Price: {{productoSignal().price}}$</p>
+      <app-button-primary  [label]="buttonName" [action]="goBack"></app-button-primary>
+    </div>
+  </div>
+
+</div>

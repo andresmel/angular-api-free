@@ -32,4 +32,4 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist/angular-api-free  # 👈 cambia esto si tu proyecto tiene otro nombre
+        publish_dir: ./dist/pruebaFront  # 👈 cambia esto si tu proyecto tiene otro nombre

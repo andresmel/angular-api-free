@@ -3,8 +3,6 @@ name: Angular Deploy to GitHub Pages
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 permissions:
   contents: write
@@ -16,8 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-
-    - name: Setup Node
+    - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: 22
@@ -32,4 +29,4 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist/pruebaFront  # 👈 cambia esto si tu proyecto tiene otro nombre
+        publish_dir: ./dist/pruebaFront

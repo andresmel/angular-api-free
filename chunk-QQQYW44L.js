@@ -1,1 +1,0 @@
-import{L as o}from"./chunk-VTZAVRYR.js";var r=class t{constructor(){}static \u0275fac=function(c){return new(c||t)};static \u0275prov=o({token:t,factory:t.\u0275fac,providedIn:"root"})};export{r as Productos};

@@ -1,0 +1,1 @@
+import{ba as t}from"./chunk-CBLSIXQX.js";import{a as r}from"./chunk-7CGTOI24.js";var s=t(null),o={user:s.asReadonly(),setUser(e){s.set(e)},updateUser(e){s.update(a=>r(r({},a),e))},clearUser(){s.set(null),sessionStorage.removeItem("user")},onLoadApp(){let e=sessionStorage.getItem("user");e?s.set(JSON.parse(e)):s.set(null)}};export{o as a};

@@ -1,4 +1,4 @@
-<app-header></app-header>
+<app-loading *ngIf="pageLoad()"></app-loading>
 <div class="container-form">
-  <app-form (sendata)="login($event)"></app-form>
+  <app-form [title]="title"  (sendata)="login($event)"></app-form>
 </div>

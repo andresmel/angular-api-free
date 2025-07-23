@@ -5,6 +5,11 @@
      "users":{
       "getUsers":"/users",
       "auth":"/auth/login"
+     },
+     "productos":{
+      "getProductos":"/products",
+      "getProductoDetail":"/products/"
+
      }
   }
 

@@ -1,0 +1,1 @@
+import{b as i}from"./chunk-DFOI7I23.js";import"./chunk-PIIUHRTQ.js";import{Ja as o,ua as a}from"./chunk-VTZAVRYR.js";var r=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=a({type:t,selectors:[["app-private-layout"]],decls:1,vars:0,template:function(e,p){e&1&&o(0,"router-outlet")},dependencies:[i],encapsulation:2})};export{r as PrivateLayout};

@@ -4,12 +4,12 @@
   {
      "users":{
       "getUsers":"/users",
-      "auth":"/auth/login"
+      "auth":"/auth/login",
+      "register":"/users"
      },
      "productos":{
       "getProductos":"/products",
       "getProductoDetail":"/products/"
-
      }
   }
 

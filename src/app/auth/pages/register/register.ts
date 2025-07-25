@@ -1,6 +1,5 @@
 import { PrimaryButtonAuth } from './../../components/primary-button-auth/primary-button-auth';
 import { Component , inject, Input } from '@angular/core';
-import { Header } from '../../shared/header/header';
 import { Form } from '../../components/form/form';
 import { RouterLink } from '@angular/router';
 import { FormBuilder,FormControl,Validator,ReactiveFormsModule, Validators } from '@angular/forms';
@@ -10,7 +9,7 @@ import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-register',
-  imports: [Header,Form,RouterLink,ReactiveFormsModule,PrimaryButtonAuth],
+  imports: [Form,RouterLink,ReactiveFormsModule,PrimaryButtonAuth],
   templateUrl: './register.html',
   styleUrl: './register.scss'
 })

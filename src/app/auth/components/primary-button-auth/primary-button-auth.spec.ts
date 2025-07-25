@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FormReg } from './form-reg';
+import { PrimaryButtonAuth } from './primary-button-auth';
 
-describe('FormReg', () => {
-  let component: FormReg;
-  let fixture: ComponentFixture<FormReg>;
+describe('PrimaryButtonAuth', () => {
+  let component: PrimaryButtonAuth;
+  let fixture: ComponentFixture<PrimaryButtonAuth>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [FormReg]
+      imports: [PrimaryButtonAuth]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FormReg);
+    fixture = TestBed.createComponent(PrimaryButtonAuth);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
